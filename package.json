@@ -1,0 +1,24 @@
+{
+  "name": "postrelay",
+  "version": "1.0.0",
+  "description": "A Web UI to configure mail forwarding with PostFix",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/revhelix/postrelay.git"
+  },
+  "keywords": [
+    "PostFix",
+    "Relay",
+    "Forwarding"
+  ],
+  "author": "Mark LaPointe",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/revhelix/postrelay/issues"
+  },
+  "homepage": "https://github.com/revhelix/postrelay#readme"
+}
