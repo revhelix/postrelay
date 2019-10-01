@@ -4,7 +4,14 @@
   "description": "A Web UI to configure mail forwarding with PostFix",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check": "gts check",
+    "clean": "gts clean",
+    "compile": "tsc -p .",
+    "fix": "gts fix",
+    "prepare": "npm run compile",
+    "pretest": "npm run compile",
+    "posttest": "npm run check"
   },
   "repository": {
     "type": "git",
@@ -20,5 +27,11 @@
   "bugs": {
     "url": "https://github.com/revhelix/postrelay/issues"
   },
-  "homepage": "https://github.com/revhelix/postrelay#readme"
+  "homepage": "http://postrelay.iambsd.org",
+  "devDependencies": {
+    "tslint": "^5.20.0",
+    "typescript": "~3.5.0",
+    "gts": "^1.1.0",
+    "@types/node": "^10.0.3"
+  }
 }
